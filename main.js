@@ -1,5 +1,5 @@
-    const firstRow = 'мама мыла раму';
-    const secondRow = 'собака друг человека';
+const firstRow = 'мама мыла раму';
+const secondRow = 'собака друг человека';
 
 function getRow(firstRow, secondRow) {
     
@@ -29,4 +29,4 @@ function getRow(firstRow, secondRow) {
     return k ? k : "нет совпадений";
 }
 
-console.log(getRow(firstRow, secondRow)); 
+getRow(firstRow, secondRow);
